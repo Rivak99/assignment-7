@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --color-link: #ecf0f1;
+  --accent-color: #e74c3c;
+  --primary-color: #2c3e50;
+  --nav-height: 70px;
+  --bg-color: #f4f6f7;
+  --card-color: #ffffff;
+  --box-color: #e8f8f5;
+}
+body {
+  background-color: var(--bg-color);
+}
+.sec1 {
+  margin-bottom: 100px;
+}
+nav {
+  height: var(--nav-height);
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 40px 10px 5px 30px;
+}
+a {
+  color: var(--color-link);
+  text-decoration: none;
+  margin: 20px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+a:hover {
+  color: var(--accent-color);
+}
+.assignment p {
+  color: var(--color-link);
+  display: inline-block;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+}
+.assignment {
+  float: right;
+}
+.card {
+  background-color: var(--card-color);
+  color: var(--primary-color);
+  width: 75vw;
+  align-items: center;
+  padding: 40px;
+}
+.box1 {
+  height: 150px;
+}
+
+.badge {
+  background-color: var(--accent-color);
+  color: var(--card-color);
+  position: absolute;
+  top: -20px;
+  right: 250px;
+  width: 80px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+}
+.box {
+  margin-left: 10%;
+  margin-top: 30px;
+}
+.b1 {
+  position: relative;
+  z-index: 1;
+}
+.sticky {
+  background-color: var(--primary-color);
+  color: var(--card-color);
+  height: 40px;
+  width: 70vw;
+  position: sticky;
+  top: 60px;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.boxes {
+  display: inline-block;
+  background-color: var(--box-color);
+  width: 22vw;
+  height: 50px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+}
+.box2 {
+  height: 180px;
+}
+
+#section3 {
+  margin-top: 120px;
+  margin-left: 10%;
+  padding: 20px;
+}
+.card ul {
+  list-style-type: square;
+}
+
+.card ol {
+  list-style-type: upper-roman;
+}
+
+.ordered-list {
+  padding: 25px;
+  background-color: var(--bg-color);
+}
+.unordered-list {
+  margin-left: 20px;
+}
